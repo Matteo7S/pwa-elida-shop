@@ -1,7 +1,7 @@
 {
-  "name": "pwa-barcode-scanner",
+  "name": "pwa-shop-manager",
   "version": "1.0.0",
-  "description": "Barcode scanner with product information",
+  "description": "Inventory manager PWA for clothes shop",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --display-error-details",
@@ -10,10 +10,6 @@
     "lint": "./node_modules/.bin/eslint . --fix",
     "cypress:open": "node_modules/.bin/cypress open",
     "cypress:run": "node_modules/.bin/cypress run"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/moigonzalez/pwa-barcode-scanner.git"
   },
   "engines": {
     "node": ">=13.5.0"
@@ -24,7 +20,7 @@
     "pwa",
     "camera"
   ],
-  "author": "Moises Gonzalez <moigonzit@gmail.com>",
+  "author": "Matteo <mattiweb@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "quagga": "^0.12.1",
